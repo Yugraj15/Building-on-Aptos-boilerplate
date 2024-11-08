@@ -1,13 +1,16 @@
-module metaschool::calculator_l05
+module metaschool::calculator
 {
+		// <import modules>
     use std::string::{String,utf8};
     use std::signer;
 
+		// <struct>
     struct Message has key
     {
         my_message : String
     }
 
+		// <functions>
     public entry fun create_message(account: &signer)
     {
         if (!exists<Message>(signer::address_of(account))){

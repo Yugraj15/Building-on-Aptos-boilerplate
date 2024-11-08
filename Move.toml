@@ -1,10 +1,10 @@
 [package]
-name = 'calculator_l05'
+name = 'calculator'
 version = '1.0.0'
 
 [dependencies]
 AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "testnet" }
 
 [addresses]
-metaschool = "0x19c676f6b069ec9a75a6266cedd09dc918853709ec79c79620923c8dcad5aba2"
+metaschool = "19c676f6b069ec9a75a6266cedd09dc918853709ec79c79620923c8dcad5aba2"
 std = "0x1"
